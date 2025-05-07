@@ -204,4 +204,14 @@ public class DianaApi
         => moveJToPose(pose, v, a, tcp, order, freq, damping, ip);
     
     
+    
+    
+    
+    [DllImport("DianaApi", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    public static extern int getJointPos(
+        [Out, MarshalAs(UnmanagedType.LPArray, SizeConst = 7)] double[] joints,
+        [MarshalAs(UnmanagedType.LPStr)] string ip);
+    
+    
+    
 }
