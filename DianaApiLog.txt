@@ -1,11 +1,143 @@
- [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.1.3,initRef:1
- [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-59036,remoteipPort:-0
- [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-59037,remoteipPort:-0
- [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-59038,remoteipPort:-0
- [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-59039,remoteipPort:-0
- [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-59040,remoteipPort:-0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-63286,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-63287,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-63288,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-63289,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-63290,remoteipPort:-0
  [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
  [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
  [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
- [Error] [CRobotApiSystem::createRobotApi]ip:192.168.1.3 Init Error Ret:2
- [Info] [CRobotApiSystem::destroyRobotApi]192.168.1.3, refCount:1, InitRef:0
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-52440,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-52441,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-52442,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-52443,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-52444,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-59550,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-59551,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-59552,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-59553,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-59554,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-56135,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-56136,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-56137,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-56138,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-56139,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-65288,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-65289,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-65290,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-65291,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-65292,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-63666,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-63667,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-63668,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-63669,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-63670,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-51246,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-51247,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-51248,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-51249,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-51250,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-58323,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-58324,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-58325,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-58326,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-58327,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-61914,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-61915,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-61916,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-61917,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-61918,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-65183,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-65184,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-65185,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-65186,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-65187,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-62812,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-62813,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-62814,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-62815,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-62816,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-59582,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-59583,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-59584,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-59585,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-59586,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0
+ [Info] [CRobotApiSystem::createRobotApi]create ok:192.168.10.75,initRef:1
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 0 local ip-port: 0.0.0.0-49183,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 1 local ip-port: 0.0.0.0-49184,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 2 local ip-port: 0.0.0.0-49185,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 3 local ip-port: 0.0.0.0-49186,remoteipPort:-0
+ [Info] [CSessionUDP::initSession] ret£º 1 session type: 4 local ip-port: 0.0.0.0-49187,remoteipPort:-0
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiImp::requestConnect] request connect to service failed. error code: 2
+ [Error] [IRobotApi::sendPacketV1SynBlock] send buff failed. error code:  -1006
+ [Error] [CRobotApiSystem::createRobotApi]ip:192.168.10.75 Init Error Ret:2
+ [Info] [CRobotApiSystem::destroyRobotApi]192.168.10.75, refCount:1, InitRef:0

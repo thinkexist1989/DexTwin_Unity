@@ -9,16 +9,16 @@ public class ConnectToDiana : MonoBehaviour
     [ReadOnly]
     public bool isConnected = false; // 是否连接
     
-    private JointControl jointControl; // Unity中关节运动控制
+    private JntControl _jntControl; // Unity中关节运动控制
     // Start is called before the first frame update
     void Start()
     {
-        jointControl = GetComponent<JointControl>();
+        _jntControl = GetComponent<JntControl>();
 
         DianaApi.srv_net_st info = new DianaApi.srv_net_st();
         DianaApi.initSrvNetInfo(ref info);
 
-        info.SrvIp = jointControl.ipAddress;
+        info.SrvIp = _jntControl.ipAddress;
 
         int ret = DianaApi.initSrv(null, null, ref info);
         
@@ -41,19 +41,23 @@ public class ConnectToDiana : MonoBehaviour
     void Update()
     {
         double [] jointPos = new double[7];
-        int ret = DianaApi.getJointPos(jointPos, jointControl.ipAddress);
-        if (ret < 0)
+        if (isConnected)
         {
-            Debug.LogError("获取关节位置失败，IP: " + jointControl.ipAddress);
-        }
-        else
-        {
-            Debug.Log("获取关节位置成功，IP: " + jointControl.ipAddress);
-            for (int i = 0; i < 7; i++)
+            int ret = DianaApi.getJointPos(jointPos, _jntControl.ipAddress);
+            if (ret < 0)
             {
-                jointControl.jointAngles[i] = jointPos[i] / Mathf.PI * 180.0;
+                Debug.LogError("获取关节位置失败，IP: " + _jntControl.ipAddress);
             }
+            else
+            {
+                Debug.Log("获取关节位置成功，IP: " + _jntControl.ipAddress);
+                for (int i = 0; i < 7; i++)
+                {
+                    _jntControl.jointAngles[i] = jointPos[i] / Mathf.PI * 180.0;
+                }
+            } 
         }
+
         
     }
 
@@ -61,6 +65,6 @@ public class ConnectToDiana : MonoBehaviour
 
     void Destroy()
     {
-        DianaApi.destroySrv(jointControl.ipAddress);
+        DianaApi.destroySrv(_jntControl.ipAddress);
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraControl : MonoBehaviour
+public class CameraCtrl : MonoBehaviour
 {
     public GameObject target;
     
@@ -19,10 +19,6 @@ public class CameraControl : MonoBehaviour
 
     private float x = 0.0f;            // 当前水平角度
     private float y = 0.0f;            // 当前垂直角度
-
-
-    public GameObject orientationCamera;
-    
     
     // Start is called before the first frame update
     void Start()
@@ -57,11 +53,6 @@ public class CameraControl : MonoBehaviour
 
             transform.rotation = rotation;
             transform.position = position;
-
-            if (orientationCamera)
-            {
-                orientationCamera.transform.localRotation = rotation;
-            }
         }
     }
 

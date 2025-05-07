@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightControl : MonoBehaviour
+public class LightCtrl : MonoBehaviour
 {
     public Material redLight;
     public Material greenLight;
