@@ -51,7 +51,7 @@ public class ConnectToDiana : MonoBehaviour
             Debug.Log("获取关节位置成功，IP: " + jointControl.ipAddress);
             for (int i = 0; i < 7; i++)
             {
-                jointControl.jointAngles[i] = jointPos[i];
+                jointControl.jointAngles[i] = jointPos[i] / Mathf.PI * 180.0;
             }
         }
         

@@ -25,7 +25,8 @@ public class JointControl : MonoBehaviour
     
     private Quaternion[] initRot = new Quaternion[JointNum];
     
-    
+    private int[] jointDir = new int[JointNum];
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,8 +45,14 @@ public class JointControl : MonoBehaviour
                 initRot[i] = links[i].transform.localRotation;
             }
         }
-        
-        
+
+        jointDir[0] = 1;
+        jointDir[1] = -1;
+        jointDir[2] = 1;
+        jointDir[3] = -1;
+        jointDir[4] = 1;
+        jointDir[5] = 1;
+        jointDir[6] = -1;
         
         // for (int i = 0; i < JointNum; i++)
         // {
@@ -69,7 +76,7 @@ public class JointControl : MonoBehaviour
             {
                 // Set euler angles y for link
                 links[i].transform.localRotation =
-                    initRot[i] * Quaternion.Euler(0, (float)jointAngles[i], 0);
+                    initRot[i] * Quaternion.Euler(0, (float)jointAngles[i] * jointDir[i], 0);
                 // joints[i].transform.localRotation = Quaternion.Euler(joints[i].transform.localEulerAngles.x, (float)jointAngles[i], joints[i].transform.localEulerAngles.z);
 
             }
