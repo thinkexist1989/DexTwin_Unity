@@ -9,11 +9,11 @@ public class ConnectToDiana : MonoBehaviour
     [ReadOnly]
     public bool isConnected = false; // 是否连接
     
-    private JntControl _jntControl; // Unity中关节运动控制
+    private JntCtrl _jntControl; // Unity中关节运动控制
     // Start is called before the first frame update
     void Start()
     {
-        _jntControl = GetComponent<JntControl>();
+        _jntControl = GetComponent<JntCtrl>();
 
         DianaApi.srv_net_st info = new DianaApi.srv_net_st();
         DianaApi.initSrvNetInfo(ref info);

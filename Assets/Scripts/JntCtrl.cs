@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteAlways]
-public class JntControl : MonoBehaviour
+public class JntCtrl : MonoBehaviour
 {
     // Diana7 Ip Address
     public string ipAddress = "192.168.1.3";
