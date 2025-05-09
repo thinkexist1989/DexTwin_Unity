@@ -20,15 +20,18 @@ public class PassiveFingerJntCtrl : MonoBehaviour
     
     public double value = 0.0;
     
+    private Quaternion initRot;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        initRot = transform.localRotation;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        value = activeFinger.value * multiplier;
+        transform.localRotation = initRot * Quaternion.Euler(0, (float)(direction == DirectionType.Positive ? value : -value), 0);
     }
 }
