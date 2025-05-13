@@ -6,30 +6,69 @@ public class MenuSwitch : MonoBehaviour
 {
 
     public SlideMenu menuTasks;
-    public SlideMenu menuStates;
+    public SlideMenu menuArms;
+    public SlideMenu menuHands;
     public SlideMenu menuSettings;
+    public SlideMenu menuAbout;
     
     
     public void ToggleTaskMenu()
     {
         menuTasks.ToggleMenu();
-        menuStates.isOpen = false;
+        menuArms.isOpen = false;
+        menuHands.isOpen = false;
         menuSettings.isOpen = false;
+        menuAbout.isOpen = false;
     }
     
-    public void ToggleStateMenu()
+    public void ToggleArmsMenu()
     {
         menuTasks.isOpen = false;
-        menuStates.ToggleMenu();
+        menuArms.ToggleMenu();
+        menuHands.isOpen = false;
         menuSettings.isOpen = false;
+        menuAbout.isOpen = false;
+
     }
     
+    public void ToggleHandsMenu()
+    {
+        menuTasks.isOpen = false;
+        menuArms.isOpen = false;
+        menuHands.ToggleMenu();
+        menuSettings.isOpen = false;
+        menuAbout.isOpen = false;
+
+    }
+
     public void ToggleSettingMenu()
     {
         menuTasks.isOpen = false;
-        menuStates.isOpen = false;
+        menuArms.isOpen = false;
+        menuHands.isOpen = false;
         menuSettings.ToggleMenu();
+        menuAbout.isOpen = false;
     }
+    
+    public void ToggleAboutMenu()
+    {
+        menuTasks.isOpen = false;
+        menuArms.isOpen = false;
+        menuHands.isOpen = false;
+        menuSettings.isOpen = false;
+        menuAbout.ToggleMenu();
+    }
+    
+    
+    public void CloseAllMenus()
+    {
+        menuTasks.isOpen = false;
+        menuArms.isOpen = false;
+        menuHands.isOpen = false;
+        menuSettings.isOpen = false;
+        menuAbout.isOpen = false;
+    }
+    
     
     // Start is called before the first frame update
     void Start()
