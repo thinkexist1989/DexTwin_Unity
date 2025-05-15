@@ -1,0 +1,41 @@
+﻿syntax = "proto3";
+
+package dextwin;
+
+// 枚举任务状态
+enum TaskState {
+  STOP = 0;
+  FIRST_BUMP = 1;
+  WAVE = 2;
+  DRIBBLE = 3;
+  FINISHING = 4;
+}
+
+// 单个手臂或手的关节状态
+message JointState {
+  repeated double positions = 1;
+  repeated double velocities = 2;
+}
+// 控制模式
+enum ControlMode {
+  POSITION_MODE = 0;
+  CARTESIAN_IMPEDANCE_MODE = 1;
+  JOINT_IMPEDANCE_MODE = 2;
+}
+
+// 新的RobotState消息
+message RobotState {
+  JointState left_arm_joints = 1;
+  JointState right_arm_joints = 2;
+  JointState left_hand_joints = 3;
+  JointState right_hand_joints = 4;
+
+  repeated double tcp_position = 5;       // [x, y, z]
+  repeated double tcp_orientation = 6;    // 轴角
+  ControlMode mode = 7;                //当前控制模式
+  bool is_enabled = 8;
+  string error_msg = 9;
+
+  TaskState task_state = 10;         // 当前任务状态
+}
+
